@@ -1,0 +1,48 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "8bff9fd1-e4cb-41bf-800e-cb387a03ddad"
+    js:
+      indent_size: 2
+      keep_function_indentation: true
+      space_after_anon_function: true
+  core:
+    allowPendingPaneItems: false
+    openEmptyEditorOnStart: false
+    telemetryConsent: "no"
+  editor:
+    fontSize: 11
+    showIndentGuide: true
+  "exception-reporting":
+    userId: "a64d6491-c6f9-d9d9-4d63-5fabd5671077"
+  "git-plus":
+    general:
+      _analyticsUserId: "9b4c7b37-2c2f-459a-9fa2-6788eeb330f7"
+  linter:
+    errorPanelHeight: 80
+  "linter-eslint": {}
+  "linter-jshint":
+    disableWhenNoJshintrcFileInPath: true
+  react: {}
+  "spell-check":
+    grammars: [
+      "source.asciidoc"
+      "source.gfm"
+      "text.git-commit"
+      "text.plain"
+      "text.plain.null-grammar"
+      "source.js.jsx"
+      "source.js"
+      "comment.block.documentation.js"
+      "text.plain.null-grammar"
+    ]
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    syncHorizontalScroll: true
+  "sync-settings":
+    _lastBackupHash: "adf879993f4fb3b78c32e04e38deeb6933415158"
+    gistId: "07d36218ce08d1eb077e51374b89ef05"
+    personalAccessToken: "ca345a6b3afac9396bb8ab6b4553a30338228c5f"

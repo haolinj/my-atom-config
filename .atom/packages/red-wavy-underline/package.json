@@ -1,0 +1,70 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-1161028-15790-1kgm70b/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-1161028-15790-1kgm70b/package.tgz",
+        "spec": "/tmp/d-1161028-15790-1kgm70b/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-1161028-15790-1oyuezy"
+    ]
+  ],
+  "_from": "../d-1161028-15790-1kgm70b/package.tgz",
+  "_id": "red-wavy-underline@0.3.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/red-wavy-underline",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-1161028-15790-1kgm70b/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-1161028-15790-1kgm70b/package.tgz",
+    "spec": "/tmp/d-1161028-15790-1kgm70b/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-1161028-15790-1kgm70b/package.tgz",
+  "_shasum": "f45d69d847e604b6fd8a8a1fc9624444dcfb4916",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-1161028-15790-1kgm70b/package.tgz",
+  "_where": "/tmp/apm-install-dir-1161028-15790-1oyuezy",
+  "author": {
+    "name": "Lee Dohm",
+    "email": "lee@lee-dohm.com"
+  },
+  "bugs": {
+    "url": "https://github.com/lee-dohm/red-wavy-underline/issues"
+  },
+  "dependencies": {},
+  "description": "Changes the style of underline used by the spell-check package",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=0.196.0 <2.0.0"
+  },
+  "homepage": "https://github.com/lee-dohm/red-wavy-underline#readme",
+  "keywords": [
+    "red",
+    "wavy",
+    "underline",
+    "style"
+  ],
+  "license": "MIT",
+  "main": "./lib/red-wavy-underline",
+  "name": "red-wavy-underline",
+  "optionalDependencies": {},
+  "readme": "# Red Wavy Underline [![Dependency Status](https://david-dm.org/lee-dohm/red-wavy-underline.svg)](https://david-dm.org/lee-dohm/red-wavy-underline)\n\nThis package changes the style of underline used by the [spell-check package][spell-check] to highlight spelling errors to the red, wavy underline. This package does *not* do any spell checking by itself.\n\n![Screenshot](https://raw.githubusercontent.com/lee-dohm/red-wavy-underline/master/spelling-example.png)\n\n## Using the RWU Style\n\nYou can also use the RWU for other purposes with the mixin provided in the stylesheet. For example, you can add the RWU to all comments by adding the following to your `styles.less`:\n\n```less\n@import \"packages/red-wavy-underline/styles/red-wavy-underline\";\n\natom-text-editor::shadow .comment {\n  .red-wavy-underline;\n}\n```\n\n![Mixin Example](https://raw.githubusercontent.com/lee-dohm/red-wavy-underline/master/mixin-example.png)\n\n## Copyright\n\nCopyright &copy; 2014-2015 by [Lee Dohm](http://www.lee-dohm.com) and [Lifted Studios](http://www.liftedstudios.com). See [LICENSE] for details.\n\n[LICENSE]: https://github.com/lee-dohm/red-wavy-underline/blob/master/LICENSE.md\n[spell-check]: https://atom.io/packages/spell-check\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lee-dohm/red-wavy-underline.git"
+  },
+  "version": "0.3.0"
+}

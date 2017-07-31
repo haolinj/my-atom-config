@@ -1,0 +1,70 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-1161023-13740-9cc48v/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-1161023-13740-9cc48v/package.tgz",
+        "spec": "/tmp/d-1161023-13740-9cc48v/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-1161023-13740-uy76ll"
+    ]
+  ],
+  "_from": "../d-1161023-13740-9cc48v/package.tgz",
+  "_id": "redux-devtools@0.5.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/redux-devtools",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-1161023-13740-9cc48v/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-1161023-13740-9cc48v/package.tgz",
+    "spec": "/tmp/d-1161023-13740-9cc48v/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-1161023-13740-9cc48v/package.tgz",
+  "_shasum": "9b337efb62998ba076b22f50a10525f615da7492",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-1161023-13740-9cc48v/package.tgz",
+  "_where": "/tmp/apm-install-dir-1161023-13740-uy76ll",
+  "activationCommands": {
+    "atom-workspace": "devtools:open"
+  },
+  "bugs": {
+    "url": "https://github.com/zalmoxisus/atom-redux-devtools/issues"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.3",
+    "react": "15.3.0",
+    "react-dom": "15.3.0",
+    "remotedev-app": "^0.8.2",
+    "sub-atom": "1.0.x"
+  },
+  "description": "Open Redux DevTools in the editor",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0"
+  },
+  "homepage": "https://github.com/zalmoxisus/atom-redux-devtools#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "./lib/index",
+  "name": "redux-devtools",
+  "optionalDependencies": {},
+  "readme": "# Redux DevTools for Atom\n\n![Demo](https://raw.githubusercontent.com/zalmoxisus/atom-redux-devtools/master/demo.png)\n\nAn Atom package to include [remotedev-app](https://github.com/zalmoxisus/remotedev-app) into your editor. Can be used with [remote-redux-devtools](https://github.com/zalmoxisus/remote-redux-devtools) / [remotedev-app](https://github.com/zalmoxisus/remotedev-app).\n\n### Installation\n\nTo add the package to Atom:\n```\napm install redux-devtools\n```\n\nTo include in your project:\n```\nnpm install --save-dev remote-redux-devtools\n```\nor\n```\nnpm install --save-dev remotedev\n```\n\n### Usage\n\n- [with `remote-redux-devtools`](https://github.com/zalmoxisus/remote-redux-devtools#usage);\n- [with `remotedev`](https://github.com/zalmoxisus/remotedev#usage).\n\n### License\n\nMIT\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zalmoxisus/atom-redux-devtools.git"
+  },
+  "version": "0.5.1"
+}

@@ -1,0 +1,83 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-1161023-13009-4ze3n8/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-1161023-13009-4ze3n8/package.tgz",
+        "spec": "/tmp/d-1161023-13009-4ze3n8/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-1161023-13009-1k3jc04"
+    ]
+  ],
+  "_from": "../d-1161023-13009-4ze3n8/package.tgz",
+  "_id": "elm@0.1.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/elm",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-1161023-13009-4ze3n8/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-1161023-13009-4ze3n8/package.tgz",
+    "spec": "/tmp/d-1161023-13009-4ze3n8/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-1161023-13009-4ze3n8/package.tgz",
+  "_shasum": "753b6d406475cc1eaa682a7ed13356110329c2f7",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-1161023-13009-4ze3n8/package.tgz",
+  "_where": "/tmp/apm-install-dir-1161023-13009-1k3jc04",
+  "bugs": {
+    "url": "https://github.com/triforkse/atom-elm/issues"
+  },
+  "dependencies": {},
+  "description": "Run elm-format in Atom",
+  "devDependencies": {
+    "babel-eslint": "^6.0.2",
+    "babel-preset-steelbrain": "^2.0.1",
+    "eslint": "^2.2.0",
+    "eslint-config-airbnb": "^7.0.0",
+    "pre-commit": "^1.1.2",
+    "ucompiler": "^3.1.8",
+    "ucompiler-plugin-babel": "^3.1.1"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/triforkse/atom-elm#readme",
+  "keywords": [
+    "elm",
+    "format",
+    "elm-format",
+    "elm-types"
+  ],
+  "license": "MIT",
+  "main": "./lib/elm",
+  "name": "elm",
+  "optionalDependencies": {},
+  "pre-commit": [
+    "lint",
+    "compile"
+  ],
+  "readme": "# elm-format\n\nRuns `elm-format` on save if you enable it\n\nGet `elm-format` at https://github.com/avh4/elm-format\n\n*Format on save* is disabled as default, so just activate it.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/triforkse/atom-elm.git"
+  },
+  "scripts": {
+    "compile": "ucompiler go",
+    "lint": "eslint .",
+    "watch": "ucompiler watch"
+  },
+  "version": "0.1.0"
+}
